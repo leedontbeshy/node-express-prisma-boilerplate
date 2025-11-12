@@ -1,13 +1,11 @@
-# Quick Start Guide | Hướng dẫn nhanh
+# Quick Start Guide 
 
-## English Version
-
-### Prerequisites
+## Prerequisites
 - Node.js v18 or higher
 - PostgreSQL (or MySQL/SQLite)
 - npm or yarn
 
-### Quick Setup (5 minutes)
+## Quick Setup (5 minutes)
 
 1. **Install dependencies**
 ```bash
@@ -48,7 +46,7 @@ curl -X POST http://localhost:3000/api/users \
   -d '{"email":"test@example.com","name":"Test User","password":"password123"}'
 ```
 
-### Project Structure Explained
+## Project Structure Explained
 
 ```
 src/
