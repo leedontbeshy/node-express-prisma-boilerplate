@@ -36,7 +36,7 @@ src/
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd Learning_TS_EXPRESS
+cd <your-prj>
 ```
 
 2. **Install dependencies**
