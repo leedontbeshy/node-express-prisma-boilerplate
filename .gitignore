@@ -11,7 +11,7 @@ logs/
 
 # Env
 .env
-.env.*
+.env.local
 
 # Firebase
 firebase-service-account.json
