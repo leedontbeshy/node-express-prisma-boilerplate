@@ -2,9 +2,7 @@
 
 ---
 
-## English
-
-### Features
+## Features
 
 - **Express.js** - Fast, unopinionated web framework
 - **TypeScript** - Type safety and modern JavaScript features
@@ -16,7 +14,7 @@
 - **Security** - Helmet, CORS, rate limiting
 - **Logging** - Morgan HTTP request logger
 
-### Project Structure
+## Project Structure
 
 ```
 src/
@@ -33,7 +31,7 @@ src/
 └── utils/              # Helper functions
 ```
 
-### Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -107,7 +105,7 @@ Request → Route → Middleware → Controller → Service → Repository → D
 Response ← Controller ← Service ← Repository ← Database
 ```
 
-### Adding New Features
+## Adding New Features
 
 1. **Define types** in `src/types/`
 2. **Create repository** in `src/repositories/` for database operations
@@ -117,7 +115,7 @@ Response ← Controller ← Service ← Repository ← Database
 6. **Add middleware** if needed in `src/middlewares/`
 7. **Register routes** in `src/app.ts`
 
-### Technologies
+## Technologies
 
 - Node.js v18+
 - Express.js v5
