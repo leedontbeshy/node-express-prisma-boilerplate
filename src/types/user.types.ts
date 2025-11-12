@@ -1,28 +1,28 @@
 // User type definitions
 export interface User {
-  id: number;
-  email: string;
-  name: string;
-  createdAt: Date;
-  updatedAt: Date;
+    id: number;
+    email: string;
+    name: string;
+    createdAt: Date;
+    updatedAt: Date;
 }
 
 export interface CreateUserDto {
-  email: string;
-  name: string;
-  password: string;
+    email: string;
+    name: string;
+    password: string;
 }
 
 export interface UpdateUserDto {
-  email?: string;
-  name?: string;
-  password?: string;
+    email?: string;
+    name?: string;
+    password?: string;
 }
 
 export interface UserResponse {
-  id: number;
-  email: string;
-  name: string;
-  createdAt: Date;
-  updatedAt: Date;
+    id: number;
+    email: string;
+    name: string;
+    createdAt: Date;
+    updatedAt: Date;
 }
