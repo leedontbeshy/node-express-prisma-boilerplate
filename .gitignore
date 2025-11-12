@@ -1,0 +1,51 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.*
+
+# Firebase
+firebase-service-account.json
+**/firebase-service-account.json
+
+# Editor
+.vscode/
+.idea/
+.cursor/
+*.sublime-workspace
+*.sublime-project
+.kiro/
+.claude/
+
+
+# Build/Cache
+dist/
+build/
+coverage/
+.tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# # DB
+# *.sql
+# *.sqlite
+# *.db
+
+# Uploads
+uploads/
+public/uploads/
+
+
+docs/
